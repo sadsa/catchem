@@ -1,8 +1,8 @@
 export const environment = {
     production: false,
     keycloak: {
-        url: 'http://localhost:8080',
-        realm: 'snorlax',
-        clientId: 'account'
+        url: 'https://localhost:8443',
+        realm: 'pokedex',
+        clientId: 'pokedex-client'
     }
 }
